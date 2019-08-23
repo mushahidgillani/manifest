@@ -1,0 +1,13 @@
+<manifest>
+        <remote  name="innowi"
+                 fetch="."
+                />
+        <default 
+                remote="innowi"
+                revision="master"
+                sync-j="4"
+                />
+
+        <project path="innowi/project1" name="innowi/project1" />
+        <project path="innowi/project2" name="innowi/project2" />
+</manifest>
